@@ -7,7 +7,7 @@ class welcome:
         self.root = root
         self.root.geometry('1100x500+100+100')
         self.root.title(' Inventory Management System | Developed by Vivek Sharma')
-        self.root.config(bg='white')
+        self.root.config(bg='grey')
         root.resizable(False, False)
 
         self.icon1 = Image.open('images/welcome.png')
